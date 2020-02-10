@@ -5,6 +5,7 @@ class PimcoreInstaller extends BaseInstaller
 {
     protected $locations = array(
         'plugin' => 'plugins/{$name}/',
+        'custom-module' => 'src/${name}'
     );
 
     /**
